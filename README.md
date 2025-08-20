@@ -1,192 +1,169 @@
-# 🚀 Data Structures & Algorithms Solutions
+# 🚀 Data Structures & Algorithms Practice
 
-A comprehensive collection of coding solutions implementing fundamental data structures and algorithms. This repository contains over 80+ well-documented solutions covering essential computer science concepts.
+A comprehensive collection of **80+ coding problems** solved in **Java** and **Python**, covering fundamental data structures and algorithms concepts.
 
-## 📋 Table of Contents
+## 📊 Repository Stats
+- **Total Problems**: 80+
+- **Languages**: Java, Python, C++
+- **Topics Covered**: Arrays, Linked Lists, Trees, Strings, Sorting, Searching, Dynamic Programming
+- **Last Updated**: Recently active with new solutions
 
-- [Overview](#overview)
-- [Categories](#categories)
-- [Languages Used](#languages-used)
-- [Getting Started](#getting-started)
-- [Problem Categories](#problem-categories)
-- [Contributing](#contributing)
-- [License](#license)
+## 📂 Problem Categories
 
-## 🎯 Overview
-
-This repository serves as a learning resource and reference guide for:
-- **Students** preparing for technical interviews
-- **Developers** brushing up on fundamental algorithms
-- **Anyone** interested in understanding core computer science concepts
-
-Each solution is implemented with clarity and efficiency in mind, focusing on both correctness and optimal time/space complexity.
-
-## 🗂️ Categories
-
-### 📊 Arrays & Sorting
+### 🔢 **Array Operations**
+- Largest Element in Array
+- Array Leaders  
+- Missing Number in Array
+- Rotate Array
+- Wave Array
 - Binary Array Sorting
-- Bubble Sort, Quick Sort, Insertion Sort
 - Cyclically Rotate Array
-- Find Missing and Repeating Elements
-- Kadane's Algorithm (Maximum Subarray)
-- Kth Smallest Element
-- Wave Array, Zig-Zag Array
 - Reverse Array in Groups
+- Move Zeroes to End
+- Equilibrium Point
 
-### 🔗 Linked Lists
-- Check if Linked List is Palindrome
-- Count Nodes in Linked List
-- Detect Loop in Linked List
-- Find Middle Element
-- Identical Linked Lists
+### 🔗 **Linked Lists**
 - Linked List Insertion
 - Reverse a Linked List
+- Check if Linked List is Palindrome
+- Count Nodes of Linked List
+- Finding Middle Element
+- Detect Loop in Linked List
+- Identical Linked Lists
 
-### 🌳 Trees & Binary Trees
+### 🌳 **Trees**
 - Count Leaves in Binary Tree
-- Mirror Tree
 - Postorder Traversal
+- Mirror Tree
 
-### 📚 Stacks & Queues
+### 📚 **Stacks**
 - Implement Stack using Array
 - Implement Stack using Linked List
 - Get Minimum Element from Stack
 - Parenthesis Checker
 
-### 🔍 Searching & Binary Search
-- Binary Search
-- Peak Element
-- Search in Matrix
-- Searching a Number
+### 🔤 **Strings**
+- Anagram Detection
+- Non Repeating Character
+- Reverse Words in String
+- Convert String to Lowercase
+- Uncommon Characters
+- Count Palindromic Substrings
 
-### 🧮 Mathematical Problems
+### 🔍 **Searching & Sorting**
+- Binary Search
+- Quick Sort
+- Insertion Sort
+- Bubble Sort
+- Peak Element
+- Kth Smallest Element
+
+### 🧮 **Mathematical Problems**
 - Armstrong Numbers
+- GCD of Two Numbers
+- LCM and GCD
 - Fibonacci Numbers
-- GCD and LCM
 - Prime Number Check
 - Power of 2
 - Sieve of Eratosthenes
-- Triangular Numbers
 
-### 🔤 String Processing
-- Anagram Check
-- Convert String to Lowercase
-- Non-repeating Character
-- Palindromic Substrings
-- Reverse String and Words
-- String Pattern Matching (strstr)
-
-### 🎯 Dynamic Programming
+### 🎯 **Dynamic Programming**
+- Kadane's Algorithm
 - Minimum Jumps
+- Stock Buy and Sell II
 - Largest Subarray with 0 Sum
-- Next Permutation
 
-### 🔢 Bit Manipulation
-- Count Digits
-- Toggle Bits in Range
-- Bleak Numbers
+## 🛠️ Languages Used
 
-## 💻 Languages Used
+| Language | Count | Usage |
+|----------|-------|-------|
+| Java     | 70+   | Primary language for most solutions |
+| Python   | 10+   | Recent additions and specific problems |
+| C++      | 1     | Equilibrium Point implementation |
 
-- **Java** - Primary language for most implementations
-- **Python** - Used for specific algorithm implementations
-- **C++** - Used for certain optimized solutions
+## 📈 Recent Activity
+- **Yesterday**: Added Largest Element in Array (Python)
+- **Last Month**: Array Leaders, Minimum Jumps solutions
+- **6 Months Ago**: Next Permutation, Largest Subarray with 0 Sum
+
+## 🎯 Problem Difficulty Levels
+
+### Beginner 🟢
+Perfect for those starting with DSA
+- Hello World programs
+- Basic array operations
+- Simple mathematical problems
+
+### Intermediate 🟡  
+Building problem-solving skills
+- Linked list manipulations
+- String algorithms
+- Sorting techniques
+
+### Advanced 🔴
+Challenging algorithmic problems
+- Dynamic programming solutions
+- Complex tree operations
+- Optimization problems
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/SanthoshD123/your-repo-name.git
-   cd your-repo-name
-   ```
+### Prerequisites
+- Java 8+ installed
+- Python 3.6+ installed
+- Basic understanding of data structures
 
-2. **Choose your preferred language**
-   - Most solutions are available in Java (.java files)
-   - Some algorithms have Python (.py) implementations
-   - C++ solutions (.cpp) for specific problems
+### Running the Code
+```bash
+# For Java files
+javac filename.java
+java filename
 
-3. **Run any solution**
-   ```bash
-   # For Java files
-   javac "Solution Name.java"
-   java "Solution Name"
-   
-   # For Python files
-   python "Solution Name.py"
-   
-   # For C++ files
-   g++ "Solution Name.cpp" -o solution
-   ./solution
-   ```
+# For Python files
+python filename.py
+```
 
-## 📚 Problem Categories
-
-### Beginner Level
-- Hello World Programs
-- Basic Mathematical Operations
-- Simple Array Operations
-- String Manipulations
-
-### Intermediate Level
-- Sorting Algorithms
-- Linked List Operations
-- Tree Traversals
-- Stack and Queue Implementations
-
-### Advanced Level
-- Dynamic Programming Solutions
-- Complex String Algorithms
-- Graph-related Problems
-- Optimization Problems
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **Fork** the repository
-2. **Create** a new branch (`git checkout -b feature/algorithm-name`)
-3. **Add** your solution with proper documentation
-4. **Commit** your changes (`git commit -am 'Add new algorithm solution'`)
-5. **Push** to the branch (`git push origin feature/algorithm-name`)
-6. **Create** a Pull Request
-
-### Contribution Guidelines
-- Follow consistent naming conventions
-- Include time and space complexity analysis
-- Add comments explaining the algorithm logic
-- Test your solution with multiple test cases
-- Update this README if adding new categories
-
-## 📊 Repository Stats
-
-- **Total Solutions**: 80+
-- **Primary Language**: Java
-- **Problem Categories**: 8+
-- **Difficulty Levels**: Beginner to Advanced
-- **Last Updated**: Active development
+## 📝 Code Structure
+Each solution includes:
+- **Clean, readable code** with proper variable naming
+- **Time and space complexity** considerations
+- **Multiple approaches** where applicable
+- **Edge case handling**
 
 ## 🎓 Learning Path
+1. **Start with Arrays**: Master basic operations and manipulations
+2. **Move to Strings**: Learn pattern matching and manipulation
+3. **Explore Linked Lists**: Understand pointer concepts
+4. **Practice Sorting/Searching**: Build algorithmic thinking
+5. **Tackle Trees**: Develop recursive problem-solving
+6. **Master Dynamic Programming**: Optimize complex problems
 
-**Recommended order for beginners:**
-1. Start with basic array operations
-2. Move to string manipulations
-3. Learn sorting algorithms
-4. Understand linked list operations
-5. Practice tree and graph problems
-6. Master dynamic programming concepts
+## 📚 Topics Covered
 
+| Topic | Problems | Key Concepts |
+|-------|----------|--------------|
+| **Arrays** | 20+ | Traversal, Rotation, Searching |
+| **Strings** | 15+ | Pattern Matching, Manipulation |
+| **Linked Lists** | 10+ | Pointers, Traversal, Modification |
+| **Trees** | 5+ | Traversal, Properties |
+| **Sorting** | 8+ | Comparison-based, Non-comparison |
+| **Mathematics** | 12+ | Number Theory, Sequences |
 
+## 🤝 Contributing
+Feel free to contribute by:
+- Adding new problem solutions
+- Optimizing existing solutions
+- Adding alternative approaches
+- Improving documentation
 
 ## 📄 License
+This repository is open source and available under the [MIT License](LICENSE).
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ⭐ Show Your Support
-
-If this repository helped you in your coding journey, please consider giving it a ⭐ star!
+## 🔗 Connect
+- **GitHub**: [SanthoshD123](https://github.com/SanthoshD123)
+- **Practice Platform**: GeeksforGeeks, LeetCode compatible solutions
 
 ---
+⭐ **Star this repository** if you find it helpful for your coding interview preparation!
 
-**Happy Coding!** 🎉
-
-> "The best way to learn algorithms is to implement them yourself." - Anonymous
+> *"The only way to learn a new programming language is by writing programs in it."* - Dennis Ritchie
