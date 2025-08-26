@@ -1,6 +1,6 @@
 # 🚀 Data Structures & Algorithms Practice
 
-A comprehensive collection of **80+ coding problems** solved in **Java** and **Python**, covering fundamental data structures and algorithms concepts.
+A collection of **80+ coding problems** solved in **Java** and **Python**, covering fundamental data structures and algorithms concepts.
 
 ## 📊 Repository Stats
 - **Total Problems**: 80+
